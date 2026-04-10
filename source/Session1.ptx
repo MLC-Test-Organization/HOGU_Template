@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
-
+<!--HERE IS THE LINK TO THE PRETEXT GUIDE: https://pretextbook.org/doc/guide/html/guide-toc.html-->
   <docinfo>
     <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
     <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
@@ -21,10 +21,9 @@
     <p>
       Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
     </p>
-    <page>
+    
     <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 1  %%%%%%%%%%%%%%%%%    -->
       <title>Getting Warmed Up and in the Right Mindset</title>
-    </paragraphs>
     <exercise workspace="1 in">
       <statement><!-- #1 -->
         <p>
@@ -46,12 +45,10 @@
         </p>
       </statement>
     </exercise>
-    </page>
-    <page>
+    </paragraphs>
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Let Us Get Our Hands On</title>
-    </paragraphs>
-    <exercise number="1">
+    <exercise workspace="1 in" number="1">
       <statement><!-- #1 -->
         <p>
           Problem 1
@@ -65,8 +62,8 @@
         </p>
       </statement>
     </exercise>
-  </page>
-  <page>
+  
+  
     <exercise workspace="1 in" number="3">
       <statement><!-- #3 -->
         <p> 
@@ -74,11 +71,10 @@
         </p>
       </statement>
     </exercise> 
-  </page>
-  <page>
+  
+  </paragraphs>
   <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
     <title>Now Grades Go Up</title>
-  </paragraphs>
   <exercise workspace ="1 in" number="1">
     <statement><!-- #1 -->
       <p>
@@ -100,7 +96,8 @@
       </p>
     </statement>
   </exercise>
-  </page>
+  </paragraphs>
+  
 </worksheet>
 
 </article>

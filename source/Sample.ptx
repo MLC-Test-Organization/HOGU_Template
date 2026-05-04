@@ -25,29 +25,29 @@
       Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. 
       For additional practice problems and explanations, refer to the Math 142 textbook which is free and can be downloaded as a PDF 
       at <url href="https://oaktrust.library.tamu.edu/items/03980291-5e85-4d2e-a742-961ac49666aa"> Texas A&amp;M The OAKTrust Digital Repository </url>.
-      <!--'&' and '<' are exceptional characters and are instead authored as &lt; and &amp;. See 4.1.4.2-->
+      <!--'&' and '<' are exceptional characters and are instead authored as &amp; and &lt;. See 4.1.4.2-->
     </p>
     
     <paragraphs>
         <title>Getting Warmed Up and in the Right Mindset</title>
-    <exercise workspace="0.75in"> <!-- controlling workspace length is the best way to force page breaks on a worksheet -->
-      <statement><!-- #1 -->
+    <exercise workspace="0.75in"><!-- #1 --><!-- controlling workspace length is the best way to force page breaks on a worksheet -->
+      <statement>
         <p>
           Explain the meaning of of <m>\D\lim_{x \to 3} f(x) = -2</m>. <!--see 4.9 in Guide for displaying mathematics-->
         </p>
       </statement>
     </exercise>
 
-    <exercise workspace="0.75in">
-      <statement><!-- #2 -->
+    <exercise workspace="0.75in"><!-- #2 -->
+      <statement>
         <p>
          If <m>\D\lim_{x \to 2} g(x) = 7</m>, then <m>\D\lim_{x \to 2^-} g(x)</m> <fillin/>.
         </p>
       </statement>
     </exercise>
 
-    <exercise workspace="0.75in">
-      <statement><!-- #3 -->
+    <exercise workspace="0.75in"><!-- #3 -->
+      <statement>
         <p>
         If <m>\D\lim_{x \to 8^-} h(x) = \frac{2}{3}</m> and <m>\D\lim_{x \to 8^+} h(x) = -\frac{4}{3}</m>, 
         then <m>\D\lim_{x \to 8} h(x)</m> <fillin/>. 
@@ -55,8 +55,8 @@
       </statement>
     </exercise>
 
-    <exercise workspace="0.75in">
-      <statement><!-- #4 -->
+    <exercise workspace="0.75in"><!-- #4 -->
+      <statement>
         <p>
          If <m>\D\lim_{x \to -6^-} p(x) = \sqrt{5}</m> and <m>\D\lim_{x \to -6^+} p(x) = \sqrt{5}</m>, then 
         <m>\D\lim_{x \to -6} p(x)</m> <fillin/>.
@@ -64,8 +64,8 @@
       </statement>
     </exercise>
 
-    <exercise workspace="0.75in">
-      <statement><!-- #5 -->
+    <exercise workspace="0.75in"><!-- #5 -->
+      <statement>
         <p>
          If <m>\D\lim_{x \to 0^-} h(x) = e</m>, what do we know about <m>\D\lim_{x \to 0} h(x)</m>?
         </p>
@@ -76,8 +76,8 @@
     
     <paragraphs>
         <title>Let Us Get Our Hands On</title>
-    <exercise number="1"><!-- must restart numbering manually for each section -->
-      <statement><!-- #1 -->
+    <exercise number="1"><!-- #1 --><!-- must restart numbering manually for each section -->
+      <statement>
         <p>Complete the graph below so <m>f(x)</m> has the domain <m>[-8,7]</m>, <m>\D\lim_{x \rightarrow -4} f(x)=-2</m>, 
           and <m>\D\lim_{x \rightarrow 5^-} f(x)=9</m>. 
         <image source="M142_HOGU_session1_fig1.png" width="70%"> <!--this is how you include an image. Upload image to the "assets" folder--><!--see 4.14 in Guide for more info-->
@@ -97,8 +97,8 @@
       </statement>
     </exercise> 
 
-    <exercise workspace="1in" number="2">
-      <statement><!-- #2 -->
+    <exercise workspace="1in" number="2"><!-- #2 -->
+      <statement>
         <p>Complete the tables below to estimate  <m>\D\lim_{t \rightarrow 0} \frac{|t-5|}{t}</m> numerically. 
           If the limit does not exist, state so and use limit notation to describe any infinite behavior. Round your answers to four decimal places (if necessary).
         <!--see chp 20 on Guide for how to create tables-->
@@ -159,8 +159,8 @@
     </exercise>
   
   
-    <exercise workspace="2in" number="3">
-      <statement><!-- #3 -->
+    <exercise workspace="2in" number="3"><!-- #3 -->
+      <statement>
         <p> Set up a table to estimate <m>\D \lim_{x \rightarrow -2} \frac{x^2-x-6}{(x+2)(x+7)}</m> numerically. 
           When creating your table, show at least three <m>x</m>-values approaching <m>-2</m> from each side and their corresponding function values in the table. 
           If the limit does not exist, state so and use limit notation to describe any infinite behavior. 
@@ -169,8 +169,8 @@
       </statement>
     </exercise> 
 
-    <exercise workspace="2in" number="4">
-      <statement><!-- #4 -->
+    <exercise workspace="2in" number="4"><!-- #4 -->
+      <statement>
         <p> Given the graph of <m>f(x)</m> below and <m>g(x)=\frac{10x-30}{x^2-x-6}</m>, 
           find <m>\D\lim_{x \rightarrow 3} \left( \frac{f(x)+5x}{2}+\sqrt{g(x)+14} \right)</m>. 
           <image source="M142_HOGU_session1_fig2.png" width="70%">
@@ -194,7 +194,7 @@
   
   
     <exercise number="5"><!-- #5 -->
-        <introduction>
+        <introduction><!-- instead of a statement, use an introduction followed by tasks when authoring multiple choice problems.-->
           <p>
             Given <m>\D f(x)= \begin{cases}5^{4x-3}&#x26;x \leq -5\\ \\  \D \frac{x^2-x}{x^2+2x}&#x26;x>-5 \\\end{cases}</m> find the following limits.
             If the limit does not exist, state so and use limit notation to describe any infinite behavior.
@@ -247,8 +247,8 @@
             </task>
     </exercise> 
 
-    <exercise number="7">
-      <introduction><!-- #7 -->
+    <exercise number="7"><!-- #7 -->
+      <introduction>
         <p> For each graph below, find the indicated limit.</p>
       </introduction>
           <task>
@@ -376,8 +376,8 @@
   
   <paragraphs>
     <title>Now Grades Go Up</title>  
-    <exercise number="1">
-      <statement><!-- #1 -->
+    <exercise number="1"><!-- #1 -->
+      <statement>
         <p>
           The mathematical notation <m>\D\lim \limits_{x \rightarrow 5} f(x)</m> means <m>\underline{ \qquad\qquad}</m>
           <!-- see 4.11 for making lists and different options for markers-->
@@ -393,8 +393,8 @@
       </statement>
     </exercise>
 
-    <exercise number="2">
-      <statement><!-- #2 -->
+    <exercise number="2"><!-- #2 -->
+      <statement>
         <p>
            Find <m>\D\lim_{x\rightarrow 2^-} \frac{3x^2}{x^2-4}</m>. If the limit does not exist, but has infinite behavior, use limit notation to 
                 describe the infinite behavior of the function as <m>x \longrightarrow 2^-</m>.
@@ -411,8 +411,8 @@
       </statement>
     </exercise>
 
-    <exercise number="3">
-      <statement><!-- #3 -->
+    <exercise number="3"><!-- #3 -->
+      <statement>
         <p>
           Find <m>\D\lim \limits_{x \rightarrow 7} \frac{x^2-8x+7}{x-7}</m>.
               <ol marker="(a)">

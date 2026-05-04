@@ -25,24 +25,24 @@
     <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 1  %%%%%%%%%%%%%%%%%    -->
       <title>Getting Warmed Up and in the Right Mindset</title>
 
-      <exercise workspace="1 in">
-        <statement><!-- #1 -->
+      <exercise workspace="1in"><!-- #1 -->
+        <statement>
           <p>
             Problem 1 
           </p>
         </statement>
       </exercise>
 
-      <exercise workspace="1 in">
-        <statement><!-- #2 -->
+      <exercise workspace="1in"><!-- #2 -->
+        <statement>
           <p>
             Problem 2 
           </p>
         </statement>
       </exercise>
 
-      <exercise workspace="1 in">
-        <statement><!-- #3 -->
+      <exercise workspace="1in"><!-- #3 -->
+        <statement>
           <p>
             Problem 3
           </p>
@@ -54,24 +54,38 @@
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Let Us Get Our Hands On</title>
 
-      <exercise workspace="1 in" number="1">
-        <statement><!-- #1 -->
+      <exercise workspace="1in" number="1"><!-- #1 -->
+        <statement>
           <p>
             Problem 1
           </p>
         </statement>
       </exercise> 
 
-      <exercise workspace="1 in" number="2">
-        <statement><!-- #2 -->
+      <exercise workspace="1in" number="2"><!-- #2 -->
+        <introduction>
           <p>
-            Problem 2
+            Problem 2 with multiple parts.
           </p>
-        </statement>
+        </introduction>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Problem 2, part 1
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Problem 2, part 2
+            </p>
+          </statement>
+        </task>
       </exercise>
   
-      <exercise workspace="1 in" number="3">
-        <statement><!-- #3 -->
+      <exercise workspace="1in" number="3"><!-- #3 -->
+        <statement>
           <p> 
             Problem 3  
           </p>
@@ -83,26 +97,48 @@
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
       <title>Now Grades Go Up</title>
 
-      <exercise workspace ="1 in" number="1">
-        <statement><!-- #1 -->
+      <exercise workspace ="1in" number="1"><!-- #1 -->
+        <statement>
           <p>
             Problem 1
           </p>
         </statement>
       </exercise>
 
-      <exercise workspace ="1 in" number="2">
-        <statement><!-- #2 -->
+      <exercise workspace ="1in" number="2"><!-- #2 -->
+        <statement>
           <p>
             Problem 2
           </p>
         </statement>
       </exercise>
 
-      <exercise workspace ="1 in" number="3">
-        <statement><!-- #3 -->
+      <exercise workspace ="1in" number="3"><!-- #3 -->
+        <statement>
           <p>
-            Problem 3
+            Problem 3 with multiple choice
+            <ol marker="(a)">
+              <li>
+                <p>
+                  choice 1
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 2
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 3
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 4
+                </p>
+              </li>
+            </ol>
           </p>
         </statement>
       </exercise>
